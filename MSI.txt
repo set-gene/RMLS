@@ -1,0 +1,7 @@
+>>> MLS_maf = mp.Raw_Maf(maf_path='MLS_ALL_merge_SNP.maf')
+>>> MLS_maf.create_tagged_maf(ref_repeats_file='simpleRepeat.txt',tagged_maf_file = 'tagged_MLS.maf')
+>>> tagged_MLS_maf = mp.Tagged_Maf(tagged_maf_path='tagged_MLS.maf')
+>>> MLS_features = tagged_MLS_maf.make_feature_table(exome_size=30)
+>>> predicted_MSI = mp.msi_prediction(feature_table=MLS_features)
+>>> pd.DataFrame.to_csv(predicted_MSI,'MLS_MSI.tsv',sep='\t')
+
