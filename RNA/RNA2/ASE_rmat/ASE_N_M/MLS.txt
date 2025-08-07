@@ -1,0 +1,1 @@
+/HDD8T/jeeh99/0114_RMLS_RNA/sort/MLS3_sort.bam,/HDD8T/jeeh99/0114_RMLS_RNA/sort/MLS4_sort.bam,/HDD8T/jeeh99/0114_RMLS_RNA/sort/MLS5_sort.bam,/HDD8T2/jeeh99/0118_RMLS/sort/15190-MLS-R_sort.bam,/HDD8T2/jeeh99/0118_RMLS/sort/57257-MLS-R_sort.bam,/HDD8T2/jeeh99/0118_RMLS/sort/70615-MLS-R_sort.bam
